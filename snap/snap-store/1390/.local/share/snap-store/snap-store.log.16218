@@ -1,0 +1,32 @@
+2026-09-14 16:12:30.728023 ERROR packagekit: Received PackageKitErrorCodeEvent (PackageKitError.dependencyResolutionFailed): The following packages have unmet dependencies:
+  algobox: Depends: libqt6core5compat6 (>= 6.6.0) but it is not installable
+           Depends: libqt6core6t64 (>= 6.10.2) but it is not installable
+           Depends: libqt6gui6 (>= 6.8.2) but it is not installable
+           Depends: libqt6network6 (>= 6.1.2) but it is not installable
+           Depends: libqt6printsupport6 (>= 6.1.2) but it is not installable
+           Depends: libqt6webchannel6 (>= 6.6.0) but it is not installable
+           Depends: libqt6webenginecore6 (>= 6.6.0) but it is not installable
+           Depends: libqt6webenginecore6-bin (>= 6.6.0) but it is not installable
+           Depends: libqt6webenginewidgets6 (>= 6.6.0) but it is not installable
+           Depends: libqt6widgets6 (>= 6.3.0) but it is not installable
+           Depends: libqt6xml6 (>= 6.6.0) but it is not installable
+
+2026-09-14 16:12:30.728262 ERROR main: Error propagated to top-level
+	PackageKitTransactionError: PackageKitTransactionError: Transaction 4 finished with exit code: PackageKitExit.failed
+
+2026-09-14 16:17:43.080615 ERROR packagekit: Received PackageKitErrorCodeEvent (PackageKitError.dependencyResolutionFailed): The following packages have unmet dependencies:
+  algobox: Depends: libqt6core5compat6 (>= 6.6.0) but it is not installable
+           Depends: libqt6core6t64 (>= 6.10.2) but it is not installable
+           Depends: libqt6gui6 (>= 6.8.2) but it is not installable
+           Depends: libqt6network6 (>= 6.1.2) but it is not installable
+           Depends: libqt6printsupport6 (>= 6.1.2) but it is not installable
+           Depends: libqt6webchannel6 (>= 6.6.0) but it is not installable
+           Depends: libqt6webenginecore6 (>= 6.6.0) but it is not installable
+           Depends: libqt6webenginecore6-bin (>= 6.6.0) but it is not installable
+           Depends: libqt6webenginewidgets6 (>= 6.6.0) but it is not installable
+           Depends: libqt6widgets6 (>= 6.3.0) but it is not installable
+           Depends: libqt6xml6 (>= 6.6.0) but it is not installable
+
+2026-09-14 16:17:43.080869 ERROR main: Error propagated to top-level
+	PackageKitTransactionError: PackageKitTransactionError: Transaction 7 finished with exit code: PackageKitExit.failed
+

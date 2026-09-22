@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/elsie/Downloads/algobox_1.1.1_ubuntu_26_04_amd64.deb" added="2026-09-14T14:58:40.681567Z" modified="2026-09-14T15:48:39.143113Z" visited="2026-09-14T14:58:40.681567Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;/snap/bin/snap-store %U&apos;" modified="2026-09-14T15:48:39.143109Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads" added="2026-09-14T14:58:49.408104Z" modified="2026-09-14T14:58:49.408111Z" visited="2026-09-14T14:58:49.408105Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2026-09-14T14:58:49.408107Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/algobox_1.1.1_ubuntu_26_04_amd64%20(Copy).deb" added="2026-09-14T14:59:46.627461Z" modified="2026-09-14T15:48:19.115327Z" visited="2026-09-14T14:59:46.627462Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;/snap/bin/snap-store %U&apos;" modified="2026-09-14T15:48:19.115325Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/fiche%20etudiant" added="2026-09-14T16:12:52.538879Z" modified="2026-09-14T16:12:52.538886Z" visited="2026-09-14T16:12:52.538880Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-14T16:12:52.538882Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/fiche%20etudiant.alg" added="2026-09-14T16:13:41.842491Z" modified="2026-09-14T16:58:44.340026Z" visited="2026-09-14T16:13:41.842491Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-14T16:58:44.340024Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/sci_fi-landscape-blue-moon-mountain-planet-snow-space-178356.jpeg" added="2026-09-14T17:12:39.972816Z" modified="2026-09-14T17:12:40.281361Z" visited="2026-09-14T17:12:39.972817Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;loupe %U&apos;" modified="2026-09-14T17:12:39.972819Z" count="1"/>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2026-09-14T17:12:40.281359Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/fiche%20etudiant2.alg" added="2026-09-14T22:24:46.753136Z" modified="2026-09-14T22:24:46.753149Z" visited="2026-09-14T22:24:46.753137Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-14T22:24:46.753141Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/facture" added="2026-09-15T08:46:56.052847Z" modified="2026-09-15T08:46:56.052856Z" visited="2026-09-15T08:46:56.052849Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-15T08:46:56.052851Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/facture.alg" added="2026-09-15T08:48:19.863445Z" modified="2026-09-15T08:55:59.229865Z" visited="2026-09-15T08:48:19.863446Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-15T08:55:59.229863Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/TIME" added="2026-09-15T09:26:35.994148Z" modified="2026-09-15T09:26:35.994156Z" visited="2026-09-15T09:26:35.994150Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-15T09:26:35.994152Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/TIME2" added="2026-09-15T09:31:05.247255Z" modified="2026-09-15T09:31:05.247261Z" visited="2026-09-15T09:31:05.247256Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-15T09:31:05.247258Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/TIME2.alg" added="2026-09-15T09:31:28.412225Z" modified="2026-09-16T13:40:55.834979Z" visited="2026-09-15T09:31:28.412226Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/xml"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-15T14:55:16.695615Z" count="6"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;/snap/bin/firefox %u&apos;" modified="2026-09-16T13:40:55.834974Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/TIME.alg" added="2026-09-15T09:36:01.430571Z" modified="2026-09-15T09:36:01.430574Z" visited="2026-09-15T09:36:01.430571Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-15T09:36:01.430572Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/PIN" added="2026-09-15T11:03:37.594684Z" modified="2026-09-15T11:03:37.594692Z" visited="2026-09-15T11:03:37.594686Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-15T11:03:37.594688Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/PIN.alg" added="2026-09-15T11:03:49.482591Z" modified="2026-09-15T11:03:49.482597Z" visited="2026-09-15T11:03:49.482592Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-15T11:03:49.482594Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/mot%20de%20passe" added="2026-09-15T11:44:51.771196Z" modified="2026-09-15T11:44:51.771204Z" visited="2026-09-15T11:44:51.771198Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-15T11:44:51.771200Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/mot%20de%20passe2.alg" added="2026-09-15T12:02:37.820190Z" modified="2026-09-17T09:50:04.480226Z" visited="2026-09-15T12:02:37.820191Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-17T09:50:04.480222Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/elsie/3E93-E8EC/livre.alg" added="2026-09-15T14:15:16.030708Z" modified="2026-09-15T14:15:16.030714Z" visited="2026-09-15T14:15:16.030709Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;algobox %F&apos;" modified="2026-09-15T14:15:16.030711Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///run/media/elsie/ZORGLUBIEN" added="2026-09-15T14:33:35.926356Z" modified="2026-09-15T14:33:35.926363Z" visited="2026-09-15T14:33:35.926357Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-15T14:33:35.926359Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/ZORGLUBIEN" added="2026-09-15T14:49:40.930991Z" modified="2026-09-15T14:49:40.930998Z" visited="2026-09-15T14:49:40.930992Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-15T14:49:40.930995Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Documents/heure10.alg" added="2026-09-15T15:04:51.506889Z" modified="2026-09-15T15:04:51.506895Z" visited="2026-09-15T15:04:51.506890Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;algobox %F&apos;" modified="2026-09-15T15:04:51.506892Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/sci_fi-planet_rise-cloud-moon-night-158710.jpeg" added="2026-09-15T15:44:36.893128Z" modified="2026-09-15T15:44:36.893131Z" visited="2026-09-15T15:44:36.893129Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2026-09-15T15:44:36.893130Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/mot%20de%20passe3.alg" added="2026-09-15T16:09:38.941922Z" modified="2026-09-17T09:49:52.910090Z" visited="2026-09-15T16:09:38.941924Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-17T09:49:52.910088Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/MENTION" added="2026-09-15T16:24:36.242700Z" modified="2026-09-15T16:24:36.242730Z" visited="2026-09-15T16:24:36.242702Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-15T16:24:36.242704Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/MENTION.alg" added="2026-09-15T16:37:20.465035Z" modified="2026-09-15T16:37:20.465038Z" visited="2026-09-15T16:37:20.465035Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-15T16:37:20.465036Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/mot%20de%20passe4.alg" added="2026-09-15T16:44:03.985032Z" modified="2026-09-15T16:56:32.036508Z" visited="2026-09-15T16:44:03.985034Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-15T16:56:32.036507Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/ZORGLUBIEN.alg" added="2026-09-15T16:56:42.418200Z" modified="2026-09-15T16:56:42.418204Z" visited="2026-09-15T16:56:42.418201Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-15T16:56:42.418202Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Exercice%201" added="2026-09-15T21:04:22.373317Z" modified="2026-09-15T21:04:22.373325Z" visited="2026-09-15T21:04:22.373319Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-15T21:04:22.373322Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Exercice%202.alg" added="2026-09-15T21:09:41.816245Z" modified="2026-09-16T13:41:47.504022Z" visited="2026-09-15T21:09:41.816246Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-16T13:41:47.504019Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Exercice%203.alg" added="2026-09-15T21:34:56.451822Z" modified="2026-09-16T09:22:57.635669Z" visited="2026-09-15T21:34:56.451824Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-16T09:22:57.635667Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Exercice%204.alg" added="2026-09-15T21:39:39.596035Z" modified="2026-09-16T09:32:39.442301Z" visited="2026-09-15T21:39:39.596037Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-16T09:32:39.442299Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Exercice%205.alg" added="2026-09-15T21:42:44.303331Z" modified="2026-09-16T09:13:10.212276Z" visited="2026-09-15T21:42:44.303333Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-16T09:13:10.212275Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Exercice%206.alg" added="2026-09-15T21:47:16.043157Z" modified="2026-09-16T13:38:35.921833Z" visited="2026-09-15T21:47:16.043159Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/xml"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-16T09:53:11.886536Z" count="5"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;/snap/bin/firefox %u&apos;" modified="2026-09-16T13:38:35.921830Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Exercice%207.alg" added="2026-09-15T22:01:49.642846Z" modified="2026-09-16T10:10:02.163567Z" visited="2026-09-15T22:01:49.642848Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-16T10:10:02.163564Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Exercice%208.alg" added="2026-09-15T22:08:11.291054Z" modified="2026-09-16T10:34:36.650940Z" visited="2026-09-15T22:08:11.291056Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-16T10:34:36.650938Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/WhatsApp%20Image%202026-09-16%20at%2009.09.50.jpeg" added="2026-09-16T08:12:36.306508Z" modified="2026-09-16T08:12:36.598351Z" visited="2026-09-16T08:12:36.306509Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;loupe %U&apos;" modified="2026-09-16T08:12:36.306511Z" count="1"/>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2026-09-16T08:12:36.598349Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/783767141384963661.gif" added="2026-09-16T08:35:06.943785Z" modified="2026-09-16T08:35:06.943788Z" visited="2026-09-16T08:35:06.943786Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/gif"/>
+        <bookmark:applications>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2026-09-16T08:35:06.943787Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/photography-manipulation-night-sky-stars-165587.jpeg" added="2026-09-16T08:36:06.021912Z" modified="2026-09-16T08:36:11.371126Z" visited="2026-09-16T08:36:06.021913Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2026-09-16T08:36:11.371125Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/jpeg(2)" added="2026-09-16T08:56:10.798442Z" modified="2026-09-16T08:56:10.798444Z" visited="2026-09-16T08:56:10.798443Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2026-09-16T08:56:10.798443Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/algobox/eleve_que_fait_lalgo.alg" added="2026-09-16T09:22:17.414539Z" modified="2026-09-16T09:22:17.414543Z" visited="2026-09-16T09:22:17.414539Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-16T09:22:17.414541Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/algobox/prof_tri_abulle.alg" added="2026-09-16T09:22:35.987410Z" modified="2026-09-16T09:22:35.987414Z" visited="2026-09-16T09:22:35.987411Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-16T09:22:35.987412Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/EXEMPLE" added="2026-09-16T09:32:06.960508Z" modified="2026-09-16T09:32:06.960516Z" visited="2026-09-16T09:32:06.960509Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-16T09:32:06.960513Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/EXEMPLE.alg" added="2026-09-16T09:33:46.597341Z" modified="2026-09-16T09:33:46.597345Z" visited="2026-09-16T09:33:46.597342Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-16T09:33:46.597343Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///" added="2026-09-16T10:00:28.798133Z" modified="2026-09-16T10:00:28.798140Z" visited="2026-09-16T10:00:28.798134Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:groups>
+          <bookmark:group>baobab</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="baobab" exec="&apos;baobab %u&apos;" modified="2026-09-16T10:00:28.798137Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/POUR" added="2026-09-16T11:28:20.887729Z" modified="2026-09-16T11:28:20.887738Z" visited="2026-09-16T11:28:20.887731Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-16T11:28:20.887733Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/POUR.alg" added="2026-09-16T11:28:42.640857Z" modified="2026-09-16T11:58:48.468178Z" visited="2026-09-16T11:28:42.640858Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-16T11:58:48.468175Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie" added="2026-09-16T12:37:13.469041Z" modified="2026-09-16T12:37:42.766814Z" visited="2026-09-16T12:37:13.469042Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:groups>
+          <bookmark:group>baobab</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="baobab" exec="&apos;baobab %u&apos;" modified="2026-09-16T12:37:42.766811Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/POUR2.alg" added="2026-09-16T14:09:13.504532Z" modified="2026-09-16T15:52:06.334252Z" visited="2026-09-16T14:09:13.504534Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-16T15:52:06.334249Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/TANT%20QUE" added="2026-09-16T14:14:50.783397Z" modified="2026-09-16T14:14:50.783405Z" visited="2026-09-16T14:14:50.783398Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-16T14:14:50.783401Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/TANT%20QUE.alg" added="2026-09-16T14:15:47.717295Z" modified="2026-09-17T07:51:46.540622Z" visited="2026-09-16T14:15:47.717296Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-17T07:51:46.540620Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/POUR%203" added="2026-09-16T14:56:37.245492Z" modified="2026-09-16T14:56:37.245500Z" visited="2026-09-16T14:56:37.245493Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-16T14:56:37.245496Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/MONTHS" added="2026-09-16T15:20:08.566450Z" modified="2026-09-16T15:20:08.566459Z" visited="2026-09-16T15:20:08.566452Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-16T15:20:08.566455Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/POUR%204.alg" added="2026-09-16T15:20:37.686198Z" modified="2026-09-16T15:52:32.860981Z" visited="2026-09-16T15:20:37.686200Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-16T15:52:32.860978Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/POUR%205.alg" added="2026-09-16T15:21:02.388986Z" modified="2026-09-16T15:52:44.592747Z" visited="2026-09-16T15:21:02.388988Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-16T15:52:44.592744Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/POUR%203.alg" added="2026-09-16T15:21:34.897208Z" modified="2026-09-16T15:21:34.897215Z" visited="2026-09-16T15:21:34.897209Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-16T15:21:34.897210Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/POUR6.alg" added="2026-09-16T15:28:53.192775Z" modified="2026-09-16T15:36:26.868583Z" visited="2026-09-16T15:28:53.192776Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-16T15:36:26.868580Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/POUR7.alg" added="2026-09-16T15:44:57.174144Z" modified="2026-09-16T15:44:57.174153Z" visited="2026-09-16T15:44:57.174145Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-16T15:44:57.174149Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/POUR%208.alg" added="2026-09-16T15:58:07.434313Z" modified="2026-09-16T15:58:37.191281Z" visited="2026-09-16T15:58:07.434315Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-16T15:58:37.191250Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/jpeg(4)" added="2026-09-17T07:43:19.216173Z" modified="2026-09-17T07:43:32.173039Z" visited="2026-09-17T07:43:19.216175Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;loupe %U&apos;" modified="2026-09-17T07:43:19.216177Z" count="1"/>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2026-09-17T07:43:32.173037Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/jpeg(5)" added="2026-09-17T07:45:09.678128Z" modified="2026-09-17T07:45:27.185092Z" visited="2026-09-17T07:45:09.678130Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;loupe %U&apos;" modified="2026-09-17T07:45:26.887505Z" count="2"/>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2026-09-17T07:45:27.185091Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/jpeg(5)%20(Edited)" added="2026-09-17T07:45:41.103251Z" modified="2026-09-17T07:46:28.812259Z" visited="2026-09-17T07:45:41.103252Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2026-09-17T07:46:28.812256Z" count="4"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;loupe %U&apos;" modified="2026-09-17T07:45:59.309674Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/NOMBRES%20MAGIC" added="2026-09-17T08:51:38.170391Z" modified="2026-09-17T08:51:38.170399Z" visited="2026-09-17T08:51:38.170392Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-17T08:51:38.170395Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/NOMBRES%20MAGIC.alg" added="2026-09-17T08:57:40.613660Z" modified="2026-09-17T10:44:03.022610Z" visited="2026-09-17T08:57:40.613661Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-17T10:44:03.022608Z" count="2"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;algobox %F&apos;" modified="2026-09-17T10:36:03.398783Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/NOMBRES%20MAGIC%202.alg" added="2026-09-17T09:29:37.956888Z" modified="2026-09-17T13:24:30.092288Z" visited="2026-09-17T09:29:37.956889Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-algobox"/>
+        <bookmark:applications>
+          <bookmark:application name="algobox" exec="&apos;algobox %u&apos;" modified="2026-09-17T13:24:30.092285Z" count="22"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;algobox %F&apos;" modified="2026-09-17T10:33:15.024422Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/delivery/task01/test02" added="2026-09-21T10:20:54.630368Z" modified="2026-09-21T10:42:39.709169Z" visited="2026-09-21T10:20:54.630369Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2026-09-21T10:42:39.709165Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/delivery/test02.txt" added="2026-09-21T10:21:10.133288Z" modified="2026-09-21T10:21:10.133294Z" visited="2026-09-21T10:21:10.133289Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-zerosize"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2026-09-21T10:21:10.133291Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/delivery/task01/test03" added="2026-09-21T10:42:37.451164Z" modified="2026-09-21T10:48:12.566031Z" visited="2026-09-21T10:42:37.451166Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-zerosize"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2026-09-21T10:48:12.566028Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/delivery/task01/test01" added="2026-09-21T10:42:41.014351Z" modified="2026-09-21T14:48:22.941638Z" visited="2026-09-21T10:42:41.014353Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-zerosize"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2026-09-21T14:48:22.941636Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/delivery/task02" added="2026-09-21T11:11:51.852903Z" modified="2026-09-21T11:45:04.804264Z" visited="2026-09-21T11:11:51.852904Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2026-09-21T11:45:04.804262Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/delivery/task03/midLS" added="2026-09-21T13:32:43.224733Z" modified="2026-09-21T16:12:14.117398Z" visited="2026-09-21T13:32:43.224734Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2026-09-21T16:12:14.117395Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/delivery/task02/z.txt" added="2026-09-21T14:50:36.723233Z" modified="2026-09-21T14:50:36.723239Z" visited="2026-09-21T14:50:36.723234Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2026-09-21T14:50:36.723236Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/delivery/midLS" added="2026-09-21T16:10:45.052293Z" modified="2026-09-21T16:10:45.052299Z" visited="2026-09-21T16:10:45.052294Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2026-09-21T16:10:45.052295Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/delivery/id_rsa" added="2026-09-21T16:56:41.402360Z" modified="2026-09-21T18:18:47.843431Z" visited="2026-09-21T16:56:41.402361Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2026-09-21T18:18:47.843428Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/delivery/id_rsa.pub" added="2026-09-21T16:57:54.412059Z" modified="2026-09-21T18:18:49.878016Z" visited="2026-09-21T16:57:54.412061Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.ms-publisher"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2026-09-21T18:18:49.878012Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/La%20th%C3%A9orie%20et%20la%20pratique.jpeg" added="2026-09-21T19:39:25.585825Z" modified="2026-09-21T19:39:25.886432Z" visited="2026-09-21T19:39:25.585827Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;loupe %U&apos;" modified="2026-09-21T19:39:25.585829Z" count="1"/>
+          <bookmark:application name="loupe" exec="&apos;loupe %u&apos;" modified="2026-09-21T19:39:25.886430Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

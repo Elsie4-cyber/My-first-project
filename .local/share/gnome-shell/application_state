@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="gnome-language-selector.desktop" score="0.25" last-seen="1789462083"/>
+    <application id="org.gnome.Settings.desktop" score="19173983.56250006" last-seen="1790014329"/>
+    <application id="firmware-updater_firmware-updater-app.desktop" score="0" last-seen="1789562357"/>
+    <application id="org.gnome.TextEditor.desktop" score="5.65625" last-seen="1790014740"/>
+    <application id="org.gnome.Loupe.desktop" score="7.4375" last-seen="1790019621"/>
+    <application id="desktop-security-center_desktop-security-center.desktop" score="0.03125" last-seen="1789562318"/>
+    <application id="org.gnome.Sysprof.desktop" score="0.34375" last-seen="1789552958"/>
+    <application id="org.gnome.Characters.desktop" score="0.09375" last-seen="1789562348"/>
+    <application id="org.gnome.Logs.desktop" score="0.1875" last-seen="1789562259"/>
+    <application id="gnome-bluetooth-panel.desktop" score="0" last-seen="0"/>
+    <application id="org.gnome.Papers.desktop" score="0" last-seen="1789562193"/>
+    <application id="apport-gtk.desktop" score="0" last-seen="1790008803"/>
+    <application id="update-manager.desktop" score="0.21875" last-seen="1789552925"/>
+    <application id="snap-store_snap-store.desktop" score="2.2187569066882133" last-seen="1789566349"/>
+    <application id="org.gnome.Nautilus.desktop" score="29.781250141561031" last-seen="1790043397"/>
+    <application id="snapd-desktop-integration_snapd-desktop-integration.desktop" score="0" last-seen="1789565921"/>
+    <application id="org.gnome.seahorse.Application.desktop" score="0" last-seen="1789552865"/>
+    <application id="org.gnome.Calculator.desktop" score="1.125" last-seen="1789554569"/>
+    <application id="org.gnome.font-viewer.desktop" score="0.0625" last-seen="1789552857"/>
+    <application id="gnome-initial-setup.desktop" score="1.1175870895385742e-08" last-seen="1789401049"/>
+    <application id="nm-connection-editor.desktop" score="0" last-seen="1789552015"/>
+    <application id="firefox_firefox.desktop" score="4398.9911666112021" last-seen="1790045662"/>
+    <application id="org.gnome.baobab.desktop" score="0.09375" last-seen="1789562264"/>
+    <application id="org.gnome.DiskUtility.desktop" score="0.03125" last-seen="1789562258"/>
+    <application id="org.gnome.Ptyxis.desktop" score="1309.8184834141284" last-seen="1790045592"/>
+    <application id="algobox.desktop" score="200.51601731777191" last-seen="1789985857"/>
+    <application id="net.nokyan.Resources.desktop" score="0.0625" last-seen="1789562288"/>
+    <application id="org.gnome.Yelp.desktop" score="9.5367431640625e-06" last-seen="1789641173"/>
+    <application id="spotify_spotify.desktop" score="0.09375" last-seen="1789562955"/>
+  </context>
+</application-state>

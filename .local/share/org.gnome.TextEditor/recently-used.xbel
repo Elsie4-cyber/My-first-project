@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/elsie/delivery/task01/test02" added="2026-09-21T10:20:58.120563Z" modified="2026-09-21T19:47:47.127691Z" visited="2026-09-21T19:18:30.956352+01">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2026-09-21T19:47:47.127690Z" count="33"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/delivery/task01/test01" added="2026-09-21T10:42:41.091952Z" modified="2026-09-21T19:47:47.127681Z" visited="2026-09-21T19:18:30.954504+01">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2026-09-21T19:47:47.127678Z" count="28"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/delivery/task01/test03" added="2026-09-21T10:42:41.091960Z" modified="2026-09-21T19:47:47.127685Z" visited="2026-09-21T19:18:30.954853+01">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2026-09-21T19:47:47.127684Z" count="28"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/delivery/task02" added="2026-09-21T11:11:55.093871Z" modified="2026-09-21T19:47:47.127694Z" visited="2026-09-21T19:18:30.945141+01">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2026-09-21T19:47:47.127693Z" count="24"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/delivery/task03/midLS" added="2026-09-21T13:32:46.901143Z" modified="2026-09-21T19:47:47.127696Z" visited="2026-09-21T19:18:30.955980+01">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2026-09-21T19:47:47.127695Z" count="18"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/delivery/id_rsa" added="2026-09-21T16:56:44.819613Z" modified="2026-09-21T19:47:47.127700Z" visited="2026-09-21T19:18:30.958209+01">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2026-09-21T19:47:47.127699Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/delivery/id_rsa.pub" added="2026-09-21T16:57:57.819592Z" modified="2026-09-21T19:47:47.127688Z" visited="2026-09-21T19:18:30.957010+01">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2026-09-21T19:47:47.127687Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

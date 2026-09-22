@@ -1,0 +1,18 @@
+VARIABLES
+  nbre EST_DU_TYPE NOMBRE
+
+DEBUT_ALGORITHME
+  // On initialise la variable avec une valeur hors intervalle pour forcer l'entrée dans la boucle
+  nbre PREND_LA_VALEUR 0
+  
+  // La boucle continue tant que le nombre n'est pas entre 1 et 10
+  TANT_QUE (nbre < 1 OU nbre > 10) FAIRE
+    DEBUT_TANT_QUE
+      AFFICHER "Entrez un nombre entre 1 et 10 :"
+      LIRE nbre
+    FIN_TANT_QUE
+    
+  // Une fois la boucle terminée, le nombre est forcément valide
+  AFFICHER "Parfait ! Le nombre saisi est : "
+  AFFICHER nbre
+FIN_ALGORITHME

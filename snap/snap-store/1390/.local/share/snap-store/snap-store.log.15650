@@ -1,0 +1,55 @@
+2026-09-14 16:00:35.676787 ERROR packagekit: Received PackageKitErrorCodeEvent (PackageKitError.notAuthorized): Failed to obtain authentication.
+2026-09-14 16:00:35.676945 ERROR main: Error propagated to top-level
+	PackageKitTransactionError: PackageKitTransactionError: Transaction 4 finished with exit code: PackageKitExit.failed
+
+2026-09-14 16:09:01.889058 ERROR main: Error propagated to top-level
+	DBusAccessDeniedException: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.186" (uid=1000 pid=15650 comm="/snap/snap-store/1390/bin/snap-store /run/user/100" label="snap.snap-store.snap-store (enforce)") interface="org.freedesktop.PackageKit" member="CreateTransaction" error name="(unset)" requested_reply="0" destination="org.freedesktop.PackageKit" (bus)
+#0      DBusClient._callMethod (package:dbus/src/dbus_client.dart:1164)
+<asynchronous suspension>
+#1      DBusClient.callMethod (package:dbus/src/dbus_client.dart:625)
+<asynchronous suspension>
+#2      PackageKitClient.createTransaction (package:packagekit/src/packagekit_client.dart:1457)
+<asynchronous suspension>
+#3      PackageKitService._createTransaction (package:app_center/packagekit/packagekit_service.dart:104)
+<asynchronous suspension>
+#4      PackageKitService.installLocal (package:app_center/packagekit/packagekit_service.dart:206)
+<asynchronous suspension>
+#5      LocalDebModel.install (package:app_center/deb/local_deb_model.dart:67)
+<asynchronous suspension>
+#6      _LocalDebActionButtons.build.confirmInstallCallback (package:app_center/deb/local_deb_page.dart:130)
+<asynchronous suspension>
+
+2026-09-14 16:09:04.705505 ERROR main: Error propagated to top-level
+	DBusAccessDeniedException: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.186" (uid=1000 pid=15650 comm="/snap/snap-store/1390/bin/snap-store /run/user/100" label="snap.snap-store.snap-store (enforce)") interface="org.freedesktop.PackageKit" member="CreateTransaction" error name="(unset)" requested_reply="0" destination="org.freedesktop.PackageKit" (bus)
+#0      DBusClient._callMethod (package:dbus/src/dbus_client.dart:1164)
+<asynchronous suspension>
+#1      DBusClient.callMethod (package:dbus/src/dbus_client.dart:625)
+<asynchronous suspension>
+#2      PackageKitClient.createTransaction (package:packagekit/src/packagekit_client.dart:1457)
+<asynchronous suspension>
+#3      PackageKitService._createTransaction (package:app_center/packagekit/packagekit_service.dart:104)
+<asynchronous suspension>
+#4      PackageKitService.installLocal (package:app_center/packagekit/packagekit_service.dart:206)
+<asynchronous suspension>
+#5      LocalDebModel.install (package:app_center/deb/local_deb_model.dart:67)
+<asynchronous suspension>
+#6      _LocalDebActionButtons.build.confirmInstallCallback (package:app_center/deb/local_deb_page.dart:130)
+<asynchronous suspension>
+
+2026-09-14 16:09:12.310776 ERROR main: Error propagated to top-level
+	DBusAccessDeniedException: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.186" (uid=1000 pid=15650 comm="/snap/snap-store/1390/bin/snap-store /run/user/100" label="snap.snap-store.snap-store (enforce)") interface="org.freedesktop.PackageKit" member="CreateTransaction" error name="(unset)" requested_reply="0" destination="org.freedesktop.PackageKit" (bus)
+#0      DBusClient._callMethod (package:dbus/src/dbus_client.dart:1164)
+<asynchronous suspension>
+#1      DBusClient.callMethod (package:dbus/src/dbus_client.dart:625)
+<asynchronous suspension>
+#2      PackageKitClient.createTransaction (package:packagekit/src/packagekit_client.dart:1457)
+<asynchronous suspension>
+#3      PackageKitService._createTransaction (package:app_center/packagekit/packagekit_service.dart:104)
+<asynchronous suspension>
+#4      PackageKitService.installLocal (package:app_center/packagekit/packagekit_service.dart:206)
+<asynchronous suspension>
+#5      LocalDebModel.install (package:app_center/deb/local_deb_model.dart:67)
+<asynchronous suspension>
+#6      _LocalDebActionButtons.build.confirmInstallCallback (package:app_center/deb/local_deb_page.dart:130)
+<asynchronous suspension>
+

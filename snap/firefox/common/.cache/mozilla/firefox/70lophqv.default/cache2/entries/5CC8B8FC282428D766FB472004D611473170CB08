@@ -1,0 +1,480 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!---->
+<title>[Résolu] Classer les lignes d&#039;un fichier par ordre alphabétique! / Développement et programmation / Forum Ubuntu-fr.org</title>
+      
+    <link rel="shortcut icon" href="//www-static.ubuntu-fr.org/theme2010/images/commun/ubuntu/icone.png"/>
+          <link rel="stylesheet" media="screen" type="text/css" title="Design Ubuntu" href="//www-static.ubuntu-fr.org/theme2010/css/forum.css" />
+    <link rel="stylesheet" media="screen" type="text/css" title="Design Ubuntu" href="//www-static.ubuntu-fr.org/theme2010/css/forum-ubuntu.css" />
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="style/Ubuntu.css" />
+    <script type="text/javascript" src="//www-static.ubuntu-fr.org/theme2010/js/common.js"></script> 
+    <script type="text/javascript">
+    var menu_hidden=0;
+    </script>
+    <script type="text/javascript" src="//www-static.ubuntu-fr.org/theme2010/js/menu.js"></script>
+  
+<!--[if lte IE 6]><script type="text/javascript" src="style/imports/minmax.js"></script><![endif]-->
+<link rel="canonical" href="viewtopic.php?id=361647" title="Page 1" />
+</head>
+
+<body>
+  <div id="accessibar">
+    <a href="#main" tabindex="1">Contenu</a> | <a href="#qsearch__in" tabindex="2">Rechercher</a> | <a href="#navigation" tabindex="3">Menus</a>
+  </div>
+  <div id="punviewtopic">
+    <div id="page">
+
+      <div id="header">
+        <div id="logo">
+          <h1>Ubuntu-fr</h1>
+          <a href="http://www.ubuntu-fr.org" title="Accueil">Communauté francophone d'utilisateurs d'Ubuntu</a>
+        </div>
+
+        <form action="search_ubuntufr.php" id="search">
+          <fieldset>
+            <input type="text" value="Recherche rapide...." id="qsearch__in" accesskey="f" name="q" title="[F]" size="34" />
+            <select name="tsearch">
+              <option value="wiki">Documentation</option>
+              <option  value="forum" selected="selected">Forum</option>
+              <option  value="planet" >Planet</option>
+            </select>
+            <input type="submit" value="ok" class="button" title="Chercher" />
+          </fieldset>
+        </form>
+
+        <div id="brdwelcome" class="inbox">
+			<form action="login.php?action=in" accept-charset="utf-8" id="login_top" method="post"><fieldset>
+  <input type="hidden" name="form_sent" value="1" />
+<input type="hidden" name="redirect_url" value="//forum.ubuntu-fr.org/viewtopic.php?id=361647" />
+<input type="text" placeholder="Identifiant" required="required" title="Entrez votre identifiant" name="req_username" size="9" /><input type="password" placeholder="Mot de passe" required="required" title="Entrez votre mot de passe" name="req_password" size="9" /><input type="submit" value="connexion" id="connect" /> / <a href="register.php">inscription</a></fieldset></form>
+			<div class="clearer"></div>
+		</div>
+ 
+        <div class="clearer"></div>
+      </div>
+
+      <div id="navigation">
+        <ul>
+          <li class="menu"><a id="menu-accueil" class="title" href="http://www.ubuntu-fr.org"><span>Accueil</span></a></li>
+          <li class="menu"><a id="menu-doc" class="title" href="http://doc.ubuntu-fr.org" title="Documentation Ubuntu francophone"><span>Documentation</span></a></li>
+          <li class="menu" id="active" >
+            <a id="menu-forum" class="title" href="index.php" title="Index du forum"><span>Forum</span></a>
+            <ul>
+              <li class="cat">
+                <h2>Navigation</h2>
+                <div class="inbox">
+			<ul>
+				<li id="navrules"><a href="misc.php?action=rules" title="Charte du Forum Ubuntu-fr">Règles</a></li>
+				<li id="navregister"><a href="register.php">Inscription</a></li>
+				<li id="navlogin"><a href="login.php">Identification</a></li>
+			</ul>
+		</div>
+              </li>
+              
+		<li class="cat"><h2>Liens de recherche</h2>
+		<div id="brdmenu" class="inbox">
+			<ul>
+				<li><a href="search.php?action=show_24h" title="300 dernières discussions actives">Messages récents</a></li>
+				<li><a href="search.php?action=show_unanswered" title="300 dernières discussions sans réponse">Discussions sans réponse</a></li>
+			</ul>
+		</div></li>
+	
+            </ul>
+          </li>
+          <li class="menu"><a id="menu-planet" class="title" href="http://planet.ubuntu-fr.org"><span>Planet</span></a></li>
+        </ul>
+        <div class="clearer"></div>
+      </div>
+    
+      <div id="wrapper">
+        <div id="announce" class="block">
+	<div class="hd"><h2><span>Annonce</span></h2></div>
+	<div class="box">
+		<div id="announce-block" class="inbox">
+			<div class="usercontent"><p>Si vous avez des soucis pour rester connecté, déconnectez-vous puis reconnectez-vous depuis <a href='https://forum.ubuntu-fr.org/login.php'>ce lien</a> en cochant la case <br/><i>Me connecter automatiquement lors de mes prochaines visites</i>.</p>
+
+<!-- p>Nouvelle section <a href="/viewforum.php?id=208">Wiki</a> pour poster des messages au sujet de la documentation, voir si besoin <a href="/viewtopic.php?id=2094334">comment l'utiliser</a>.</p -->
+<p><a href='https://doc.ubuntu-fr.org/groupes/ubuntu-fr-forum'>À propos de l'équipe du forum.</a></p></div>
+		</div>
+	</div>
+</div>
+        <div id="main">
+          <div id="hidemenu" title="Masquer le menu"></div><!--
+	<div id="hidemenu"><a accesskey="z" title="Masquer le menu - AccessKey Z" href="javascript:switchMenuVisible()"><span>&nbsp;</span></a></div>-->
+          <div class="linkst">
+	<div class="inbox crumbsplus">
+		<ul class="crumbs">
+				<li><a href="http://www.ubuntu-fr.org" name="Accueil">Accueil</a></li>
+				<li><span>»&#160;</span><a href="index.php">Forum</a></li>
+				<li><span>»&#160;</span><a href="viewforum.php?id=35">Développement et programmation</a></li>
+				<li><span>»&#160;</span><strong><a href="viewtopic.php?id=361647">[Résolu] Classer les lignes d&#039;un fichier par ordre alphabétique!</a></strong></li>
+		</ul>
+		<div class="pagepost">
+			<p class="pagelink conl"><span class="pages-label">Pages&#160;: </span><strong class="item1">1</strong></p>
+		</div>
+		<div class="clearer"></div>
+	</div>
+</div>
+
+<div id="p3098071" class="blockpost rowodd firstpost blockpost1">
+	<h2><span><span class="conr">#1</span> <a href="viewtopic.php?pid=3098071#p3098071">Le 26/11/2009, à 20:11</a></span></h2>
+	<div class="box">
+		<div class="inbox">
+			<div class="postbody">
+				<div class="postleft">
+					<dl>
+						<dt><strong>argolance</strong></dt>
+												<dd class="postavatar"><img src="http://forum.ubuntu-fr.org/img/avatars/17127.jpg?m=1310129723" width="55" height="60" alt="" /></dd>
+					</dl>
+				</div>
+				<div class="postright">
+					<h3>[Résolu] Classer les lignes d&#039;un fichier par ordre alphabétique!</h3>
+					<div class="postmsg">
+						<p>Bonsoir, je récupère les noms de fichiers de deux répertoires distincts. Ils sont listés dans un fichier texte. Je me retrouve donc avec deux groupes de noms de fichiers triés par ordre alphabétique. Comment traiter ce fichier texte pour que les noms des fichiers soient fusionnés et remis dans l&#039;ordre alphabétique pour ne plus faire qu&#039;une liste homogène?<br />Merci!</p>
+						<p class="postedit"><em>Dernière modification par argolance (Le 27/11/2009, à 20:14)</em></p>
+					</div>
+					<div class="postsignature postmsg"><hr /><p><a href="http://tooppy.linux.free.fr/" rel="nofollow">ToOpPy LINUX</a></p></div>
+				</div>
+			</div>
+		</div>
+		<div class="inbox">
+			<div class="postfoot clearb">
+				<div class="postfootleft"><p><span>Hors ligne</span></p></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="p3098094" class="blockpost roweven">
+	<h2><span><span class="conr">#2</span> <a href="viewtopic.php?pid=3098094#p3098094">Le 26/11/2009, à 20:22</a></span></h2>
+	<div class="box">
+		<div class="inbox">
+			<div class="postbody">
+				<div class="postleft">
+					<dl>
+						<dt><strong>wishwand</strong></dt>
+												<dd class="postavatar"><img src="http://forum.ubuntu-fr.org/img/avatars/144286.png?m=1310129722" width="60" height="60" alt="" /></dd>
+					</dl>
+				</div>
+				<div class="postright">
+					<h3>Re&#160;: [Résolu] Classer les lignes d&#039;un fichier par ordre alphabétique!</h3>
+					<div class="postmsg">
+						<div class="codebox"><pre><code>bash# man sort
+bash#cat file1 file2 | sort -d -f -b  &gt; mon_fichier_trie</code></pre></div>
+						<p class="postedit"><em>Dernière modification par wishwand (Le 26/11/2009, à 20:24)</em></p>
+					</div>
+					<div class="postsignature postmsg"><hr /><p>Karmic - Snow Leopard - Leopard</p></div>
+				</div>
+			</div>
+		</div>
+		<div class="inbox">
+			<div class="postfoot clearb">
+				<div class="postfootleft"><p><span>Hors ligne</span></p></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="p3098386" class="blockpost rowodd">
+	<h2><span><span class="conr">#3</span> <a href="viewtopic.php?pid=3098386#p3098386">Le 26/11/2009, à 22:05</a></span></h2>
+	<div class="box">
+		<div class="inbox">
+			<div class="postbody">
+				<div class="postleft">
+					<dl>
+						<dt><strong>Totor</strong></dt>
+												<dd class="postavatar"><img src="http://forum.ubuntu-fr.org/img/avatars/5339.png?m=1310129729" width="60" height="60" alt="" /></dd>
+					</dl>
+				</div>
+				<div class="postright">
+					<h3>Re&#160;: [Résolu] Classer les lignes d&#039;un fichier par ordre alphabétique!</h3>
+					<div class="postmsg">
+						<div class="quotebox"><cite>wishwand a écrit&#160;:</cite><blockquote><div><div class="codebox"><pre><code>bash# man sort
+bash#cat file1 file2 | sort -d -f -b  &gt; mon_fichier_trie</code></pre></div></div></blockquote></div><p><img src="http://forum.ubuntu-fr.org/img/smilies/roll.png" width="15" height="15" alt="roll" /></p><p>Pour quelqu&#039;un qui site le manuel de l&#039;instruction sort, tu devrais savoir que l&#039;utilisation de cat est totalement inutile :</p><div class="codebox"><pre><code>sort -d -f -b file1 file2 ... &gt; mon_fichier_trie</code></pre></div>
+					</div>
+					<div class="postsignature postmsg"><hr /><p>-- Lucid Lynx --</p></div>
+				</div>
+			</div>
+		</div>
+		<div class="inbox">
+			<div class="postfoot clearb">
+				<div class="postfootleft"><p><span>Hors ligne</span></p></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="p3099198" class="blockpost roweven">
+	<h2><span><span class="conr">#4</span> <a href="viewtopic.php?pid=3099198#p3099198">Le 27/11/2009, à 07:38</a></span></h2>
+	<div class="box">
+		<div class="inbox">
+			<div class="postbody">
+				<div class="postleft">
+					<dl>
+						<dt><strong>noska</strong></dt>
+											</dl>
+				</div>
+				<div class="postright">
+					<h3>Re&#160;: [Résolu] Classer les lignes d&#039;un fichier par ordre alphabétique!</h3>
+					<div class="postmsg">
+						<p>Oh... bravo Totor ! Heureusement que tu es là pour nous éclairer !</p><br /><br /><br /><br /><br /><br /><p><img src="http://forum.ubuntu-fr.org/img/smilies/roll.png" width="15" height="15" alt="roll" /></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="inbox">
+			<div class="postfoot clearb">
+				<div class="postfootleft"><p><span>Hors ligne</span></p></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="p3100540" class="blockpost rowodd">
+	<h2><span><span class="conr">#5</span> <a href="viewtopic.php?pid=3100540#p3100540">Le 27/11/2009, à 20:13</a></span></h2>
+	<div class="box">
+		<div class="inbox">
+			<div class="postbody">
+				<div class="postleft">
+					<dl>
+						<dt><strong>argolance</strong></dt>
+												<dd class="postavatar"><img src="http://forum.ubuntu-fr.org/img/avatars/17127.jpg?m=1310129723" width="55" height="60" alt="" /></dd>
+					</dl>
+				</div>
+				<div class="postright">
+					<h3>Re&#160;: [Résolu] Classer les lignes d&#039;un fichier par ordre alphabétique!</h3>
+					<div class="postmsg">
+						<p>Merci beaucoup ! Bravo, ça marche parfaitement !<br />Cordialement...</p>
+					</div>
+					<div class="postsignature postmsg"><hr /><p><a href="http://tooppy.linux.free.fr/" rel="nofollow">ToOpPy LINUX</a></p></div>
+				</div>
+			</div>
+		</div>
+		<div class="inbox">
+			<div class="postfoot clearb">
+				<div class="postfootleft"><p><span>Hors ligne</span></p></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="p3100580" class="blockpost roweven">
+	<h2><span><span class="conr">#6</span> <a href="viewtopic.php?pid=3100580#p3100580">Le 27/11/2009, à 20:33</a></span></h2>
+	<div class="box">
+		<div class="inbox">
+			<div class="postbody">
+				<div class="postleft">
+					<dl>
+						<dt><strong>wishwand</strong></dt>
+												<dd class="postavatar"><img src="http://forum.ubuntu-fr.org/img/avatars/144286.png?m=1310129722" width="60" height="60" alt="" /></dd>
+					</dl>
+				</div>
+				<div class="postright">
+					<h3>Re&#160;: [Résolu] Classer les lignes d&#039;un fichier par ordre alphabétique!</h3>
+					<div class="postmsg">
+						<p>Je citais le manuel de sort simplement parce que je l&#039;ai consulté avant de répondre. Si d&#039;aucun on prit cela pour une quelconque morgue ou de l&#039;arrogance, quelle méprise! Quant à ceux qui m&#039;ont pris pour un abruti... </p><p>C&#039;est vrai cat est inutile, mais franchement <em>totalement</em> pas de quoi fouetter un chat!</p>
+					</div>
+					<div class="postsignature postmsg"><hr /><p>Karmic - Snow Leopard - Leopard</p></div>
+				</div>
+			</div>
+		</div>
+		<div class="inbox">
+			<div class="postfoot clearb">
+				<div class="postfootleft"><p><span>Hors ligne</span></p></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="p3101508" class="blockpost rowodd">
+	<h2><span><span class="conr">#7</span> <a href="viewtopic.php?pid=3101508#p3101508">Le 28/11/2009, à 10:22</a></span></h2>
+	<div class="box">
+		<div class="inbox">
+			<div class="postbody">
+				<div class="postleft">
+					<dl>
+						<dt><strong>Totor</strong></dt>
+												<dd class="postavatar"><img src="http://forum.ubuntu-fr.org/img/avatars/5339.png?m=1310129729" width="60" height="60" alt="" /></dd>
+					</dl>
+				</div>
+				<div class="postright">
+					<h3>Re&#160;: [Résolu] Classer les lignes d&#039;un fichier par ordre alphabétique!</h3>
+					<div class="postmsg">
+						<div class="quotebox"><cite>wishwand a écrit&#160;:</cite><blockquote><div><p>Je citais le manuel de sort simplement parce que je l&#039;ai consulté avant de répondre. Si d&#039;aucun on prit cela pour une quelconque morgue ou de l&#039;arrogance, quelle méprise! Quant à ceux qui m&#039;ont pris pour un abruti... </p><p>C&#039;est vrai cat est inutile, mais franchement <em>totalement</em> pas de quoi fouetter un chat!</p></div></blockquote></div><p><img src="http://forum.ubuntu-fr.org/img/smilies/lol.png" width="15" height="15" alt="lol" /> désolé si je t&#039;ai offencé mais je trouve dommage de siter le manuel d&#039;une instruction si soit même on ne l&#039;utilise pas correctement <img src="http://forum.ubuntu-fr.org/img/smilies/tongue.png" width="15" height="15" alt="tongue" /></p>
+					</div>
+					<div class="postsignature postmsg"><hr /><p>-- Lucid Lynx --</p></div>
+				</div>
+			</div>
+		</div>
+		<div class="inbox">
+			<div class="postfoot clearb">
+				<div class="postfootleft"><p><span>Hors ligne</span></p></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="postlinksb">
+	<div class="inbox crumbsplus">
+		<div class="pagepost">
+			<p class="pagelink conl"><span class="pages-label">Pages&#160;: </span><strong class="item1">1</strong></p>
+		</div>
+		<ul class="crumbs">
+			<li><a href="index.php">Forum</a></li>
+			<li><span>»&#160;</span><a href="viewforum.php?id=35">Développement et programmation</a></li>
+			<li><span>»&#160;</span><strong><a href="viewtopic.php?id=361647">[Résolu] Classer les lignes d&#039;un fichier par ordre alphabétique!</a></strong></li>
+		</ul>
+		<div class="clearer"></div>
+	</div>
+</div>
+        </div>
+
+        <div id="footer">
+          <div id="brdfooter" class="block">
+	<h2><span>Pied de page des forums</span></h2>
+	<div class="box">
+		<div id="brdfooternav" class="inbox">
+			<div class="conl">
+				<form id="qjump" method="get" action="viewforum.php">
+					<div><label><span>Atteindre<br /></span>
+					<select name="id" onchange="window.location=('viewforum.php?id='+this.options[this.selectedIndex].value)">
+						<optgroup label="Débuter avec Ubuntu">
+							<option value="9">Questions et informations avant l&#039;installation</option>
+							<option value="10">Installation d&#039;Ubuntu</option>
+						</optgroup>
+						<optgroup label="Configuration matérielle">
+							<option value="27">Affichage et cartes graphiques</option>
+							<option value="16">Accès internet et réseaux</option>
+							<option value="79">Imprimantes et scanners</option>
+							<option value="6">Autres types de matériel</option>
+						</optgroup>
+						<optgroup label="Utilisation générale">
+							<option value="25">Installation de logiciels et changements de version</option>
+							<option value="13">Bureautique et logiciels pour l&#039;internet et le réseau</option>
+							<option value="17">Lecture et configuration multimédia</option>
+							<option value="81">Création graphique, musicale et vidéo</option>
+							<option value="40">Logiciels éducatifs</option>
+							<option value="15">Jeux</option>
+							<option value="78">Terminal, scripts et ligne de commande</option>
+							<option value="65">Accessibilité</option>
+							<option value="18">Autres logiciels et problèmes généraux</option>
+							<option value="5">Archives</option>
+						</optgroup>
+						<optgroup label="Environnements">
+							<option value="121">GNOME</option>
+							<option value="66">KDE/Plasma</option>
+							<option value="38">XFCE</option>
+							<option value="101">LXQt / LXDE</option>
+							<option value="201">MATE</option>
+							<option value="204">Budgie</option>
+							<option value="37">Unity</option>
+							<option value="207">Cinnamon</option>
+							<option value="41">Autres environnements et personnalisations d&#039;Ubuntu</option>
+						</optgroup>
+						<optgroup label="Utilisations avancées">
+							<option value="51">Ubuntu en entreprise</option>
+							<option value="28">Serveurs</option>
+							<option value="63">Virtualisation et émulation</option>
+							<option value="23">Trucs, astuces et scripts utiles</option>
+							<option value="35" selected="selected">Développement et programmation</option>
+							<option value="91">Sécurité</option>
+							<option value="206">WSL - Ubuntu Core</option>
+							<option value="131">Ubuntu Touch (smartphones et tablettes)</option>
+							<option value="53">Version instable : 26.10 Stonking Stingray</option>
+						</optgroup>
+						<optgroup label="Activités autour du libre">
+							<option value="29">Événements</option>
+							<option value="69">Vos développements libres</option>
+							<option value="71">Vos sites sur le libre</option>
+							<option value="73">Revendeurs libres</option>
+						</optgroup>
+						<optgroup label="Divers">
+							<option value="42">Actualités autour du logiciel libre</option>
+							<option value="21">À propos du site - Contribution(s)</option>
+							<option value="171">Café Ubuntu</option>
+						</optgroup>
+						<optgroup label="Sous-forums">
+							<option value="208">Wiki</option>
+							<option value="22">LiveCD/LiveUSB</option>
+							<option value="7">Archives</option>
+							<option value="205">NAS</option>
+							<option value="181">Être ou ne pas être…?</option>
+							<option value="111">Gnome2</option>
+							<option value="82">WiFi</option>
+							<option value="61">Wubi : installation dans Windows</option>
+							<option value="4">Archive version instable</option>
+							<option value="20">Autres architectures</option>
+						</optgroup>
+					</select></label>
+					<input type="submit" value="Aller" accesskey="g" />
+					</div>
+				</form>
+			</div>
+			<div class="conr">
+				<p id="poweredby">Propulsé par <a href="http://fluxbb.org/">FluxBB</a></p>
+			</div>
+			<div class="clearer"></div>
+		</div>
+	</div>
+</div>
+          <div class="end-box"><div><!-- Bottom corners --></div></div>
+        </div>
+      </div>
+
+	    <div class="block-inner">
+
+        <div class="content">
+          <ul class="menu"><li class="leaf first contact"><a href="http://www.ubuntu-fr.org/contacts">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="clearer"></div>
+      </div>
+    </div>
+  </div>
+  <!-- Inclusion du script pour les stats de Sp4rKy -->
+  <!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.forum.ubuntu-fr.org","*.forum.ubuntu-fr.org"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//piwik.ubuntu-fr.org/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 2]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//piwik.ubuntu-fr.org/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+</body>
+</html>
+,U-C      j�I�j�I�I�>j�0�   _    O^partitionKey=%28https%2Cubuntu-fr.org%29,:https://forum.ubuntu-fr.org/viewtopic.php?id=361647 necko:classified 1 peer-ip-address 178.20.55.235 peer-port 443 strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Mon, 21 Sep 2026 13:26:46 GMT
+Content-Type: text/html; charset=utf-8
+Cache-Control: public, max-age=0, s-maxage=300
+Vary: Cookie
+X-Frame-Options: deny
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+ original-response-headers Server: nginx/1.14.2
+Date: Mon, 21 Sep 2026 13:26:46 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: public, max-age=0, s-maxage=300
+Vary: Cookie
+X-Frame-Options: deny
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+ ctid 1 net-response-time-onstart 10507 net-response-time-onstop 10530      Ss

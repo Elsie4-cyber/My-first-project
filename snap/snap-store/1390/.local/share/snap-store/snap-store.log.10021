@@ -1,0 +1,46 @@
+2026-09-16 11:24:30.403325 ERROR error_observer: Provider storeSnapProvider:StoreSnapProvider#abbb4(null) failed
+	SnapdException: SnapdException(kind: null, message: too many requests, status: Internal Server Error, statusCode: 500)
+2026-09-16 11:24:30.403878 ERROR error_observer: Provider snapModelProvider:SnapModelProvider#2a8c2(null) failed
+	SnapdException: SnapdException(kind: null, message: too many requests, status: Internal Server Error, statusCode: 500)
+2026-09-16 11:24:30.404018 ERROR error_observer: Provider ratingsModelProvider:RatingsModelProvider#82438(null) failed
+	SnapdException: SnapdException(kind: null, message: too many requests, status: Internal Server Error, statusCode: 500)
+2026-09-16 11:24:30.449150 ERROR error_observer: Provider storeSnapProvider:StoreSnapProvider#2984e(null) failed
+	SnapdException: SnapdException(kind: null, message: too many requests, status: Internal Server Error, statusCode: 500)
+2026-09-16 11:24:30.449245 ERROR error_observer: Provider snapModelProvider:SnapModelProvider#60f8a(null) failed
+	SnapdException: SnapdException(kind: null, message: too many requests, status: Internal Server Error, statusCode: 500)
+2026-09-16 11:24:30.449269 ERROR error_observer: Provider ratingsModelProvider:RatingsModelProvider#08746(null) failed
+	SnapdException: SnapdException(kind: null, message: too many requests, status: Internal Server Error, statusCode: 500)
+2026-09-16 11:24:30.458121 ERROR error_observer: Provider storeSnapProvider:StoreSnapProvider#536b1(null) failed
+	SnapdException: SnapdException(kind: null, message: too many requests, status: Internal Server Error, statusCode: 500)
+2026-09-16 11:24:30.458189 ERROR error_observer: Provider snapModelProvider:SnapModelProvider#8dc32(null) failed
+	SnapdException: SnapdException(kind: null, message: too many requests, status: Internal Server Error, statusCode: 500)
+2026-09-16 11:24:30.458206 ERROR error_observer: Provider ratingsModelProvider:RatingsModelProvider#2f391(null) failed
+	SnapdException: SnapdException(kind: null, message: too many requests, status: Internal Server Error, statusCode: 500)
+2026-09-16 11:24:30.467102 ERROR error_observer: Provider storeSnapProvider:StoreSnapProvider#c327e(null) failed
+	SnapdException: SnapdException(kind: null, message: too many requests, status: Internal Server Error, statusCode: 500)
+2026-09-16 11:24:30.467198 ERROR error_observer: Provider snapModelProvider:SnapModelProvider#f8889(null) failed
+	SnapdException: SnapdException(kind: null, message: too many requests, status: Internal Server Error, statusCode: 500)
+2026-09-16 11:24:30.467216 ERROR error_observer: Provider ratingsModelProvider:RatingsModelProvider#af6ba(null) failed
+	SnapdException: SnapdException(kind: null, message: too many requests, status: Internal Server Error, statusCode: 500)
+2026-09-16 11:24:30.532345 ERROR error_observer: Provider storeSnapProvider:StoreSnapProvider#3f890(null) failed
+	SnapdException: SnapdException(kind: null, message: too many requests, status: Internal Server Error, statusCode: 500)
+2026-09-16 11:24:30.532464 ERROR error_observer: Provider snapModelProvider:SnapModelProvider#6fa37(null) failed
+	SnapdException: SnapdException(kind: null, message: too many requests, status: Internal Server Error, statusCode: 500)
+2026-09-16 11:24:30.532500 ERROR error_observer: Provider ratingsModelProvider:RatingsModelProvider#56f15(null) failed
+	SnapdException: SnapdException(kind: null, message: too many requests, status: Internal Server Error, statusCode: 500)
+2026-09-16 11:24:30.612519 ERROR error_observer: Provider storeSnapProvider:StoreSnapProvider#67887(null) failed
+	SnapdException: SnapdException(kind: null, message: too many requests, status: Internal Server Error, statusCode: 500)
+2026-09-16 11:24:30.612616 ERROR error_observer: Provider snapModelProvider:SnapModelProvider#68ff9(null) failed
+	SnapdException: SnapdException(kind: null, message: too many requests, status: Internal Server Error, statusCode: 500)
+2026-09-16 11:24:30.612645 ERROR error_observer: Provider ratingsModelProvider:RatingsModelProvider#af443(null) failed
+	SnapdException: SnapdException(kind: null, message: too many requests, status: Internal Server Error, statusCode: 500)
+2026-09-16 11:24:30.866469 ERROR error_observer: Provider StreamProvider<List<Snap>>#4f858(Instance of 'SnapSearchParameters') failed
+	SnapdException: SnapdException(kind: null, message: too many requests, status: Internal Server Error, statusCode: 500)
+2026-09-16 11:24:31.311976 ERROR error_observer: Provider ratingsModelProvider:RatingsModelProvider#f5237(null) failed
+	GrpcError: gRPC Error (code: 14, codeName: UNAVAILABLE, message: Error connecting: SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = ratings.ubuntu.com, port = 44904, details: null, rawResponse: null, trailers: {})
+2026-09-16 11:24:31.312084 ERROR error_observer: Provider ratingsModelProvider:RatingsModelProvider#1a446(null) failed
+	GrpcError: gRPC Error (code: 14, codeName: UNAVAILABLE, message: Error connecting: SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = ratings.ubuntu.com, port = 44904, details: null, rawResponse: null, trailers: {})
+2026-09-16 11:24:31.312115 ERROR error_observer: Provider ratingsModelProvider:RatingsModelProvider#b9fd1(null) failed
+	GrpcError: gRPC Error (code: 14, codeName: UNAVAILABLE, message: Error connecting: SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = ratings.ubuntu.com, port = 44904, details: null, rawResponse: null, trailers: {})
+2026-09-16 11:24:31.312147 ERROR error_observer: Provider ratingsModelProvider:RatingsModelProvider#c61e1(null) failed
+	GrpcError: gRPC Error (code: 14, codeName: UNAVAILABLE, message: Error connecting: SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = ratings.ubuntu.com, port = 44904, details: null, rawResponse: null, trailers: {})

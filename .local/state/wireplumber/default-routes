@@ -1,0 +1,20 @@
+[default-routes]
+alsa_card.pci-0000_00_1f.3:output:analog-output-speaker={"channelVolumes":[0.090209, 0.090209], "channelMap":["FL", "FR"], "mute":false, "latencyOffsetNsec":0}
+alsa_card.pci-0000_00_1f.3:profile:output:analog-stereo+input:analog-stereo=["analog-output-speaker"]
+bluez_card.41_42_25_E4_C9_D2:output:headset-output={"channelVolumes":[0.173697, 0.173697], "mute":false, "latencyOffsetNsec":0, "channelMap":["FL", "FR"]}
+bluez_card.41_42_25_E4_C9_D2:profile:a2dp-sink=["headset-output"]
+bluez_card.29_FE_A1_78_84_A4:output:headset-output={"channelVolumes":[0.550275, 0.550275], "channelMap":["FL", "FR"], "latencyOffsetNsec":0, "mute":false}
+bluez_card.29_FE_A1_78_84_A4:profile:a2dp-sink=["headset-output"]
+bluez_card.46_0A_C8_0E_01_77:output:headset-output={"channelVolumes":[0.431919, 0.431919], "channelMap":["FL", "FR"], "latencyOffsetNsec":0, "mute":false}
+bluez_card.46_0A_C8_0E_01_77:profile:a2dp-sink=["headset-output"]
+bluez_card.7D_27_0B_4F_DB_FD:output:headset-output={"mute":false, "channelVolumes":[0.431919, 0.431919], "channelMap":["FL", "FR"], "latencyOffsetNsec":0}
+bluez_card.7D_27_0B_4F_DB_FD:profile:a2dp-sink=["headset-output"]
+bluez_card.7D_27_0B_4F_DB_FD:profile:headset-head-unit=["headset-input", "headset-hf-output"]
+bluez_card.7D_27_0B_4F_DB_FD:input:headset-input={"channelMap":["MONO"], "mute":false, "channelVolumes":[1.000000]}
+bluez_card.7D_27_0B_4F_DB_FD:output:headset-hf-output={"channelMap":["MONO"], "mute":false, "channelVolumes":[1.000000]}
+bluez_card.7D_27_0B_4F_DB_FD:profile:off=["headset-output"]
+bluez_card.29_FE_A1_78_84_A4:input:headset-input={"channelVolumes":[1.000000], "channelMap":["MONO"], "mute":false}
+bluez_card.29_FE_A1_78_84_A4:profile:headset-head-unit=["headset-input"]
+alsa_card.pci-0000_00_1f.3:output:analog-output-headphones={"channelVolumes":[0.580826, 0.580826], "channelMap":["FL", "FR"], "mute":false, "latencyOffsetNsec":0}
+bluez_card.41_42_C5_10_D4_41:output:headphone-output={"channelVolumes":[0.040430, 0.040430], "channelMap":["FL", "FR"], "mute":false, "latencyOffsetNsec":0}
+bluez_card.41_42_C5_10_D4_41:profile:a2dp-sink=["headphone-output"]

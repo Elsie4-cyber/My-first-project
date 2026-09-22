@@ -1,0 +1,847 @@
+/* Retrait de profil, inscription, d√©connexion et connexion du menu forum */
+#navprofile, #navlogin, #navlogout, #navregister{ display:none; }
+
+/*   -- Base commune aux FORUMS -- */
+
+/* page d'accueil : icones des categories*/
+#idx1 h2{ background-position:0 -408px; }
+#idx2 h2{ background-position:0 -255px; }
+#idx3 h2{ background-position:0 -153px; }
+#idx4 h2{ background-position:0 -357px; }
+#idx5 h2{ background-position:0 -204px; }
+#idx6 h2{ background-position:0 -102px; }
+#idx7 h2{ background-position:0 -306px; }
+#idx8 { display: none; }
+
+.stickytext, .closedtext, .movedtext, .reportlink a/*, #brdwelcome .conr li span*/{ 
+  background:transparent url('../images/forum/icones.png') no-repeat; 
+  max-height:16px;
+}
+#pundelete form{ padding-bottom:15px; }
+
+/* Annonce importante */
+#announce{
+  margin:0 0 15px 16em;
+  border:1px solid #B0C0C0;
+  border-radius:5px;
+  -o-border-radius:5px;
+  -moz-border-radius:5px;
+  -khtml-border-radius:5px;
+}
+#announce{ margin-top:-1px !important; }
+
+#announce .hd{
+  padding-left:10px;
+  background-position:left top;
+  background-repeat:repeat-x;
+  border-bottom:2px groove #ADAEAE;
+}
+#announce h2{
+  margin:0px;
+  font-weight:bold;
+  font-size:1.1em;
+  text-align:left;
+}
+#announce-block{margin:10px}
+
+/* Annonce par forum */
+
+#announce-forum{
+  margin:0; padding:10px;
+  background-color:#F3F2F2;
+  border-color:#B0C0C0;
+  border-style:solid;
+  border-width :1px 1px 0 1px;
+  border-radius:5px 5px 0 0;
+  -moz-border-radius:5px 5px 0 0;
+  -o-border-radius:5px 5px 0 0;
+  -khtml-border-radius:5px 5px 0 0;
+  -webkit-border-top-left-radius:5px;
+  -webkit-border-top-right-radius:5px;
+}
+
+/* Cadre principal */
+/* pour decaler le contenu des menus */
+
+#mainindex, #main, #mainviewforum , #mainviewindex{
+  clear:left;
+  margin-left:16em; padding:0.5em; padding-top:0px; padding-bottom:0px;
+  background-color:#FFFFFF;
+  border-color:#BEC0C0;
+  border-style:solid;
+  border-width:0 1px 0 1px;
+}
+
+/* Pied de page avec les stats*/
+
+#brdstats{
+  margin:0; padding-left:30px; padding-right:30px; padding-top:10px;
+  background:#EDEDED url('../images/forum/Pied_gauche.png') repeat-y scroll left bottom;
+  border-radius:0 0 5px 5px;
+  -moz-border-radius:0 0 5px 5px;
+  -o-border-radius:0 0 5px 5px;
+  -khtml-border-radius:0 0 5px 5px;
+  border-color:#BEC0C0;
+  border-style:solid;
+  border-width:0 1px 1px;
+}
+#brdstats h2{display:none}
+
+#footer #brdfooter{
+  padding-top:1px;
+  background-color:white;
+  border-color:#BEC0C0;
+  border-style:solid;
+  border-width:0 1px 1px;
+  border-bottom:0;
+}
+/* LIGNE SUIVANTE COMMENTEE POUR L'AFFICHAGE DU BOUTON DE LOGIN.PHP ******/
+/*#punlogin #brdfooter{margin-top:-20px}*/
+
+/********* STYLE DE BASE **************/
+
+table{ margin:0 auto; }
+
+      /**  STYLES SPECIFIQUES DE L INTERIEUR DE LA  PAGE **/
+        
+/*** pour palier a des bugs avec les float:left; **/
+
+.clear, .clearer{ clear:both; }
+
+/* block de base FIXME :est-il utilise ?*/
+
+.block{ margin:1em; }
+
+/* fil d ariane */
+
+#navbar{
+  margin:-17px 0 0 0; padding-left:20px; padding-right:0.5em;
+  border-radius:5px 5px 0 0;
+  -o-border-radius:5px 5px 0 0;
+  -moz-border-radius:5px 5px 0 0;
+  -khtml-border-radius:5px 5px 0 0;
+  -webkit-border-top-left-radius:5px;
+  -webkit-border-top-right-radius:5px;
+}
+#navbar p{
+  margin:0px; padding:1px 0 1px 20px;
+}
+.linksb .crumbs, .linksb .postlink{ display:none; }
+.linkst{
+  margin-top:0px;
+  margin-bottom:0.5em;
+}
+.linkst, .linksb{ margin-left:20px; }
+.crumbs{ margin:0; clear:both; }
+
+/* bouton pour cacher la colonne de liens*/
+
+#hidemenu{
+  position:relative;
+  margin:4px 0 0 -4px; padding:0;
+  width:12px; height:14px;
+  background:transparent url('../images/commun/bt_open_close.png');
+  background-position:0 14px;
+  cursor:pointer;
+}
+
+/*******redirection**********/
+#punredirect .top-box, #punredirect .end-box{ height:20px; }
+#punredirect{ margin:1em; }
+#punredirect #brdmain{
+  margin-top:-30px; margin-bottom:-15px;
+}
+
+/* mise en forme des tableaux des messages et des categories et des listes de posts */
+
+.blocktable h2, .blockpost h2, #quickpost h2{
+  margin-left:-2px; padding-top:7px;
+  height:44px;
+  background-repeat:no-repeat;
+  background-position:0px 0px;
+  text-indent:55px;
+  /*font-size:1.1em;*/
+}
+.blockpost h2, #quickpost h2, #postreview .blockpost .postleft dt{background-position:0 -51px}
+.blockpost h2, #quickpost h2{
+  background-repeat:no-repeat;
+  margin:0;
+  margin-left:-6px;
+  padding-right:6px;
+}
+.blockpost, #quickpost, .blocktable{
+  background-repeat:repeat-x;
+}
+.blocktable .box{
+  margin-top:-30px;
+}
+.blocktable h2 span{
+  width:100%;
+  display:block;
+  background-repeat:no-repeat;
+  background-position:top right;
+  margin-top:-7px;
+  height:17px;
+  margin-right:-2px;
+  padding-top:7px;
+}
+#quickpost h2 span{
+  padding-right:7px;
+}
+.blockpost h2 span.conr, #quickpost h2 span.conr{
+  background-repeat:no-repeat;
+  background-position:top right;
+  margin-top:-7px;
+  height:17px;
+  padding-top:7px;
+  margin-right:-7px;
+  padding-right:7px;
+}
+
+/* pour ne pas afficher : Pied de page des forums */
+
+#brdfooter h2{display:none}
+
+/******* cache les info "en ligne" et co. ******/
+.postfootleft{display:none}
+.postfoot{text-align:right}
+.postfoot li{
+  border-left-width:1px;
+  border-left-style:solid;
+  padding-left:6px;
+  padding-right:5px;
+}
+.postreport{border-left-width:0px !important;}
+/************* pour ne pas que les sujets soit colles a gauche **************/
+.tclcon{
+  float:left;
+  width:96%;
+}
+/********* numero des forums *******/
+.tcl .icon{
+  width:4%;
+  float:left;
+  min-height:20px;
+  height:1em;
+}
+.tcl .icon .nosize{display:none}
+#punindex .tcl .icon-new{
+  background-image:url('../images/forum/imgNewPost.png');
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+
+/********** icone d'√©pingl√© ******************/
+.stickytext{
+  width:20px;
+  background-position:0 -73px;
+  font-size:0px;
+  height:16px;
+  display:block;
+  float:left;
+  color:transparent;
+}
+.istick strong{
+  display:block;
+  float:left;
+}
+.closedtext{
+  width:20px;
+  background-position:0 -19px;
+  font-size:0px;
+  height:16px;
+  display:block;
+  float:left;
+  color:transparent;
+}
+.iclosed{font-style:italic}
+.movedtext{
+  width:20px;
+  background-position:0 -37px;
+  font-size:0px;
+  height:16px;
+  display:block;
+  float:left;
+  color:transparent;
+}
+
+/******** nom des forums ********/
+.tclcon h3
+{/*font-size:1em;*/
+  font-weight:bold;
+  margin-top:0;
+  margin-bottom:0.5em;
+}
+.tclcon h3 a{text-decoration:underline}
+/******* description des forums ******/
+.forumdesc{
+  line-height:1.2em;
+  margin-bottom:3px;
+}
+.inbox table{width:100%}
+#brdstats  .clearb{clear:both;}
+th{
+  text-align:left;
+  font-size:0.91em;
+  font-weight:normal;
+  color:#353535;
+}
+#users1 th{
+  font-weight:bold;
+  color:black;
+  padding-top:5px;
+  font-size:1em;
+}
+th.tcl{padding:0 0 0.5em 2em}
+.postlink{
+  text-align:right;
+  display:block;
+}
+.postlink.conr {
+  font-weight: bold;
+}
+#page_up{
+  text-align:right;
+  margin-top:-2em;
+}
+
+/** signature **/
+
+#punviewtopic .postsignature{
+  margin-bottom:5px;
+}
+
+/* cache les sujets des messages qui ne servent a rien*/
+.postright h3{display:none}
+/* reponse rapide */
+.bblinks li{
+  display:inline;
+  margin-right:20px;
+}
+/* resume message*/
+#postreview .postleft, #punmoderate .postleft{
+  margin:-20px 0 0 0;
+  float:none;
+  width:auto;
+  padding:0;
+}
+#postreview h2{margin-bottom:75px}
+#postreview .postmsg{padding-top:0}
+#punmoderate .postmsg{padding:0}
+#postreview .blockpost{margin-top:30px}
+#postreview .blockpost .postleft dl, #punmoderate .blockpost .postleft dl{
+  margin:0;
+  padding:0;
+}
+.blockpost .postleft dt{padding-left:50px}
+#postreview .blockpost .postleft dt, #punmoderate .blockpost .postleft dt{
+  width:100%;
+  height:44px;
+  padding:4px 6px 31px 50px;
+  background-repeat:no-repeat;
+  margin:-3px -30px 0 -6px;
+}
+/*.postleft dt span{font-size:0.9em}*/
+#postreview .blockpost{background-repeat:repeat-x}
+#postreview .blockpost h2 span{
+  width:100%;
+  display:block;
+  background-repeat:no-repeat;
+  background-position:top right;
+  margin-top:-7px;
+  height:17px;
+  padding-top:7px;
+  margin-right:-7px;
+  padding-right:7px;
+}
+/*#postreview .postleft dd, #punmoderate .postleft dd{font-size:0.9em}*/
+#postpreview .postmsg{margin-top:10px}
+/*Alignement horizontal des champs de recherche dans userlist*/
+#userlist .conl{
+  margin-right:10px;
+  white-space:nowrap;
+}
+
+/* passage √† la ligne pour les explications dans la page userlist*/
+#userlist .clearb{padding-left:5px; clear:both; }
+
+.blockpost .conr{font-weight:normal}
+
+/************** PROFIL **************/
+#profile li{
+  display:inline;
+  margin-right:50px;
+}
+#profile li.isactive{text-decoration:none}
+
+/************ Tableau principal **************/
+#mainindex table{width:100%}
+.tcl{width:61%;}
+.tc1, .tc2, .tc3{width:7%; text-align:center;}
+.tcr{width:25%; padding-left:1em;}
+tbody .tcl, tbody .tc1, tbody .tc2, tbody .tc3, tbody .tc4, tbody .tc5, tbody .tcr{
+  border-bottom:1px solid lightgrey;
+  padding:0.3em 0.15em 0.3em 0;
+}
+tbody .tcl{padding-right:0.5em}
+#punindex .roweven, #punsearch .roweven, #vf .roweven{background-color:#F7F7F7}
+#vf tbody tr:hover, #punindex tbody tr:hover, #punuserlist tbody tr:hover, #punsearch tbody tr:hover{background-color:#E7E7E7}
+#vf tbody a:hover, #punsearch tbody a:hover, #punuserlist tbody a:hover{text-decoration:none}
+.byuser{font-size:0.91em}
+
+/* XABILON : mise en forme des colonnes dans punsearch */
+
+#punsearch .tcl{width:50%}
+#punsearch .tc2{width:23%; text-align:left;}
+/*#punviewtopic .postleft{
+margin:0 10px 0 10px;
+height:20px;
+}*/
+#punviewtopic .postleft dd{
+  margin:0 10px;
+  width:0px;
+}
+
+/* IP pas en gras, et espace avec le pseudo*/
+#punviewtopic .postleft dt span{
+  margin-left:10px;
+  font-weight:normal;
+  width:0px;
+  height:0px;
+}
+.postleft dl{margin-top:-20px}
+.postright{
+  padding-left:75px;
+  padding-top:6px;
+}
+.postleft a{color:black !important}
+.postmsg{
+  padding:5px;
+  min-height:75px;
+}
+.blockpost, .quotebox{
+  border-radius:10px 0px 10px 0px;
+  -o-border-radius:10px 0 10px 0;
+  -moz-border-radius:10px 0px 10px 0px;  
+  -webkit-border-radius:10px 0px 10px 0px;  
+  -khtml-border-radius:10px 0px 10px 0px;  
+}
+.blockpost{
+  position:relative;
+  background-color:#E8E8E8;
+  margin-left:6px;
+  border-color:#B0C0C0;
+  border-style:solid;
+  border-width:0px 0.5px 1px 0px;
+  margin-top:5px;
+  clear:both;
+}
+#quickpost{ background-color:#edebeb; }
+.blockform .buttons{ margin-left:15px; }
+
+/* XABILON :Cadre information + fieldset (l'ancien est ci-dessus)*/
+.inform{
+  margin:10px;
+  padding-bottom:10px;
+  clear:both;
+}
+#profile .inform{padding-top:10px;}
+#profile fieldset, #adminconsole fieldset, #viewprofile fieldset{
+  background-color:#E8E8E8;
+  border:1px solid #606060;
+  border-radius:5px;
+  -o-border-radius:5px;
+  -khtml-border-radius:5px;
+  -moz-border-radius:5px;
+}
+legend{
+  font-weight:bold;
+  padding:0 5px;
+  margin-left:15px;
+}
+label{
+  margin-right:0.5em;
+  padding-top:0.2em;
+}
+
+/* XABILON : Propri√©t√© infldset (liste des signalements) */
+
+.infldset{
+  padding:6px 10px;
+  text-align:left;
+}
+#adminconsole .aligntop{width:100%}
+#adminconsole td span{margin-left:1em}
+#edforum .infldset TD{border-top:1px solid #C0C0C0}
+#censoring .tcl{width:auto}
+#punadmin_reports TH{width:15em;}
+.blockpost h2 span span, .blockpost h2 span a{
+  display:block;
+  float:right;
+  font-size:0.9em;
+}
+.blockpost h2 span span{text-align:right}
+.blockpost h2 span a{
+  color:black !important;
+  font-weight:normal;
+}
+.blockpost h2 span a:hover{text-decoration:none}
+
+/*#mainindex .inbox, mainview* .inbox{clear:both}*/
+#mainindex .inbox, #mainviewforum .inbox, #mainviewindex .inbox{clear:both}
+.inbox li{display:inline}
+.postmsg li{display:list-item}
+.blockpost .box{
+  margin-top:-50px;
+  padding-bottom:10px;
+  min-height:140px;
+}
+.inbox{clear:both}
+.top_links{
+  margin-right:5px;
+  margin-left:5px;
+}
+.blockpost .box .inbox .postbody .postright{float:none}
+#postreview .postright{float:none}
+#postreview .postleft{
+  margin:-20px 0 0 0;
+  padding:0px;
+  float:none;
+  width:auto;
+}
+/* quote */
+.quotebox{
+  background:#fdfcfd url('../images/forum/quote.png') no-repeat;
+  background-position:top left;
+  min-height:70px;
+  border-color:#A8A8A8 #C8C8C8 #C8C8C8 #A8A8A8;
+  border-style:solid;
+  border-width:1px;
+  margin:9px 0.2em 1em;
+  padding-top:0.2em;
+  overflow:hidden; 
+}
+/* codebox */
+.codebox{
+  font-family:Consolas,'Lucida Console','Bitstream Vera Sans Mono','DejaVu Sans Mono',monospace;
+  font-size:1.1em;
+  max-height:26em;
+  border:1px solid;
+  color:white;
+  background-color:#333;
+  overflow:auto;
+  margin:9px 0.2em 1em;
+  padding:0.3em 0.5em;
+  -moz-border-radius:5px;
+  border-radius:5px;
+}
+.codebox pre{margin:0; white-space:pre;}
+/* liste dans message*/
+.postmsg ul{list-style-type:disc}
+.postmsg ol.alpha{list-style-type:lower-alpha}
+.postmsg ol.decimal{list-style-type:decimal}
+
+/* cache les titres des pages du profil */
+#profile h2{display:none}
+
+/* Blocs de formulaires*/
+
+.blockform h2{
+  font-size:1.1em;
+  padding-top:10px;
+  padding-left:40px;
+  margin-right:10px;
+  padding-right:6px;
+}
+.fakeform, .blockform{
+  -o-border-radius:10px;
+  -khtml-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  border-bottom:1px solid grey;
+  border-right:1px solid grey;
+  background-color:lightgrey
+}
+.postedit{text-align:right}
+.postfootright ul{
+  margin:0px;
+  font-size:0.90em;
+}
+.postsignature p{margin:0}
+textarea{
+  width:99%;
+  padding:3px;
+}
+#punuserlist .linkst{margin:0 0 30px 0}
+cite{margin-left:10px; font-size:0.9em;}
+.modlist{display:none}
+#onlinelist dd, #onlinelist dl, #onlinelist dt{
+  display:inline;
+  margin:0px
+}
+#footer{margin-left:16em}
+
+/* Menu onglets profil */
+
+#profile .blockmenu{
+  width:100%;
+  height:4em;
+  margin-top:8px;
+  padding-top:1em;
+  padding-left:0;
+  -o-border-radius:5px;
+  -moz-border-radius:5px;
+  -khtml-border-radius:5px;
+  border-radius:5px;
+  border-bottom:1px solid grey;
+  border-right:1px solid grey;
+}
+#profile .blockmenu ul{
+  margin-left:0;
+  border-bottom:1px solid #8E9090;
+  text-align:center;
+}
+#profile .blockmenu li{
+  -o-border-radius:5px 5px 0 0;
+  -khtml-border-radius:5px 5px 0 0;
+  -moz-border-radius:5px 5px 0 0;
+  -webkit-border-top-left-radius:5px;
+  -webkit-border-top-right-radius:5px;
+  background-repeat:repeat-x;
+  border-color:#BEC0C0;
+  border-style:outset;
+  border-width:1px 1px 0;
+  margin-right:-3px;
+  padding:0.5em 0.8em 0em 0.8em;
+  font-weight:bold;
+}
+#profile .blockmenu li.isactive{
+  border-bottom-width:3px;
+  border-bottom-style:solid;
+  text-decoration:none;
+}
+#profile .blockmenu a{color:black}
+#profile .blockmenu a:hover{text-decoration:none}
+#searchlinks{display:none}
+
+/* zone pied de fil pour mod√©rateurs*/
+
+#brdfooter{
+  margin:0;
+  padding:0 8px 1px 8px;
+  display:block;
+}
+#brdfooter dt{display:none}
+.end-box{
+  height:5px;
+  margin-bottom:20px;
+  margin-top:0;
+  -o-border-radius:0 0 5px 5px;
+  -moz-border-radius:0 0 5px 5px;
+  -khtml-border-radius:0 0 5px 5px;
+  -webkit-border-bottom-left-radius:5px;
+  -webkit-border-bottom-right-radius:5px;
+  border-radius:0 0 5px 5px;
+  border-style:solid;
+  border-color:#BEC0C0;
+  border-width:0 1px 1px 1px;
+  background-color:white;
+}
+.top-box{height:5px}
+#main, .top-box{
+  margin-bottom:0;
+  -moz-border-radius:5px 5px 0 0;
+  -khtml-border-radius:5px 5px 0 0;
+  -webkit-border-top-left-radius:5px;
+  -webkit-border-top-right-radius:5px;
+  -o-border-radius:5px 5px 0 0;
+  border-radius:5px 5px 0 0;
+  border-style:solid;
+  border-color:#BEC0C0;
+  border-width:1px 1px 0 1px;
+  background-color:white;
+}
+#brdmain{
+  margin:0;
+  border-style:solid;
+  border-color:#BEC0C0;
+  border-width:0 1px 0 1px;
+  background-color:white;
+}
+#poweredby{text-align:right}
+#brdwelcome{
+  clear:none;
+  float:right;
+  text-align:right;
+}
+
+.pagelink, #punsearch #msg .inbox p, #punsearch #msg, #rules{margin-bottom:0px}
+/* redirection*/
+
+
+p.pagelink{padding:0px}
+.reportlink{
+  clear:both;
+  display:block !important;
+  margin-bottom:-20px;
+}
+.reportlink a{
+  color:red !important;
+  background-position:0 -55px;
+  padding-left:25px;
+}
+
+#brdfooternav .clearer{clear:both}
+#brdfooternav p{
+  margin:0px;
+  padding:0px;
+}
+#postreview .postleft dd span{padding-left:2em}
+.usertitle{
+  color:#353535;
+  white-space:nowrap;
+}
+.usertitle strong{font-weight:normal}
+.postmsg p{word-wrap:break-word}
+#main{overflow:hidden}
+.postavatar{
+  position:absolute;
+  top:42px;
+  left:0;
+}
+.blockpost{min-height:140px}
+
+span.bbs{text-decoration:line-through}
+span.bbu{text-decoration:underline}
+.postsignature{min-height:0px; font-size:0.9em;}
+
+/* Mise en forme de l'affichage des r√®gles*/
+#regles li{
+  list-style-type:decimal;
+  display:list-item;
+}
+
+/** Cadres Accueil et gagnant du Mois **/
+
+#announce-welcome{min-height:101px}
+#announce-welcome table{
+  min-height:101px;
+  width:100%;
+}
+#announce-welcome tbody{
+  height:100%;
+  min-height:101px;
+}
+.welcome{
+  width:75%;
+  height:100%;
+  background-repeat:repeat-y; 
+  border:1px solid #B0C0C0;
+  border-radius:8px;
+  -o-border-radius:8px;
+  -moz-border-radius:8px;
+  -khtml-border-radius:8px;
+}
+.welcome p{margin:0.6em}
+.winner{
+  height:100%;
+  border:1px solid lightgrey;
+  -o-border-radius:8px;
+  -moz-border-radius:8px;
+  -khtml-border-radius:8px;
+  border-radius:8px;
+  background-color:#F0F0F0;
+  vertical-align:top;
+}
+#winner_inbox{
+  padding-right:5px;
+  width:100%;
+  min-height:101px;
+  background-repeat:no-repeat;
+  background-position:top right;
+}
+#winner_inbox p{margin:0; margin-top:-5px; margin-left:-5px; padding:1em 54px 0.6em 0.6em; vertical-align:middle;
+
+}
+.linux_pratique{
+  font-weight:bold;
+  font-size:1.2em;
+}
+.winner_name{
+font-style:italic;
+font-size:1.1em;
+}
+video{max-width:50%}
+#postpreview .postmsg h5{margin-top:2em}
+.postlinkst .subscribelink{display:none}
+#punadmin_users .tc2, #punuserlist .tc4{width:15%}
+#punadmin_users .tcl{
+  width:20%;
+  padding-left:20px;
+}
+#punadmin_users .tc3{
+  width:15%;
+  font-size:0.9em;
+}
+.block-inner{position:absolute;bottom:0;margin-left:16em;}
+.block-inner li{
+  display:inline;
+  list-style:none outside none;
+  padding:0;
+}
+.block-inner li.first{
+  border-right:1px solid #000000;
+  padding-right:1em;
+}
+.block-inner li.last{
+  border-left:1px solid #000000;
+  padding-left:1em;
+}
+.block-inner ul{
+  margin:0 0 2px 0;
+}
+.block-inner a{color:#323232}
+
+img{vertical-align:middle}
+.postimg img{max-width:100%}
+button{cursor:pointer}
+#toolbar img{cursor:pointer}
+li.postedit, #wrapper textarea, #wrapper input, #wrapper select {font-size:1em}
+div.postright a{text-decoration:underline}
+.postright a:visited{color:#551A8B}
+p.postedit{font-size:0.9em; color:#666;}
+
+/********************************************* DEBUT OPTIMISATION *******************************/
+.conr{float:right;text-align:right}
+.conl{float:left}
+.conr, .conl{display:block}
+.postbody{padding:2px 0 0 0}
+.postleft, .postleft dl, .postleft dl dt, .postleft dl dd{display:inline}
+.postleft dl dt span a{margin-right:10px}
+.postleft{width:auto; vertical-align:middle}
+.blockpost .inbox{clear:none}
+.postleft dl{margin:0; padding:0}
+
+
+/************* RUSTINE PAGE LOGIN **********************/
+#login { width: 100%; color:black; text-align:left;}
+#login label {display: block;}
+#login .buttons input {background-color:white; border: medium outset;}
+.clearb {clear:both;}
+	EaãQX      j±Iøj±IøIÙ}j∫k   l    O^partitionKey=%28https%2Cubuntu-fr.org%29,:https://www-static.ubuntu-fr.org/theme2010/css/forum-general.css strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Mon, 21 Sep 2026 13:26:47 GMT
+Content-Type: text/css
+Content-Length: 19253
+Last-Modified: Wed, 25 Apr 2018 12:34:03 GMT
+ETag: "5ae075bb-4b35"
+Accept-Ranges: bytes
+ original-response-headers Server: nginx/1.14.2
+Date: Mon, 21 Sep 2026 13:26:47 GMT
+Content-Type: text/css
+Content-Length: 19253
+Last-Modified: Wed, 25 Apr 2018 12:34:03 GMT
+Connection: keep-alive
+ETag: "5ae075bb-4b35"
+Accept-Ranges: bytes
+ ctid 5 net-response-time-onstart 296 net-response-time-onstop 296      K5

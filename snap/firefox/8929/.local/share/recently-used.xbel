@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/elsie/Downloads/algobox_1.1.1_ubuntu_26_04_amd64.deb" added="2026-09-14T14:58:32.772518Z" modified="2026-09-14T15:00:09.732264Z" visited="2026-09-14T14:58:32.772519Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox_firefox %u&apos;" modified="2026-09-14T15:00:09.732262Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/photography-manipulation-night-sky-stars-165587.jpeg" added="2026-09-14T17:09:15.875466Z" modified="2026-09-14T17:09:15.875475Z" visited="2026-09-14T17:09:15.875467Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox_firefox %u&apos;" modified="2026-09-14T17:09:15.875470Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/sci_fi-planet_rise-cloud-moon-night-158710.jpeg" added="2026-09-14T17:09:21.018929Z" modified="2026-09-14T17:09:21.018955Z" visited="2026-09-14T17:09:21.018931Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox_firefox %u&apos;" modified="2026-09-14T17:09:21.018935Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/anime-bleach-moon-rukia_kuchiki-159312.jpeg" added="2026-09-14T17:11:25.130960Z" modified="2026-09-14T17:11:25.130971Z" visited="2026-09-14T17:11:25.130961Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox_firefox %u&apos;" modified="2026-09-14T17:11:25.130965Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/sci_fi-landscape-blue-moon-mountain-planet-snow-space-178356.jpeg" added="2026-09-14T17:11:36.407720Z" modified="2026-09-14T17:11:36.407732Z" visited="2026-09-14T17:11:36.407722Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox_firefox %u&apos;" modified="2026-09-14T17:11:36.407726Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/WhatsApp%20Image%202026-09-16%20at%2009.09.50.jpeg" added="2026-09-16T08:10:08.405678Z" modified="2026-09-16T08:10:08.405683Z" visited="2026-09-16T08:10:08.405678Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox_firefox %u&apos;" modified="2026-09-16T08:10:08.405680Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/422281212365638.jpeg" added="2026-09-16T08:15:48.015776Z" modified="2026-09-16T08:15:48.015780Z" visited="2026-09-16T08:15:48.015777Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox_firefox %u&apos;" modified="2026-09-16T08:15:48.015778Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/Bluee.jpeg" added="2026-09-16T08:16:23.049532Z" modified="2026-09-16T08:16:23.049536Z" visited="2026-09-16T08:16:23.049533Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox_firefox %u&apos;" modified="2026-09-16T08:16:23.049534Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/364087951149207087.jpeg" added="2026-09-16T08:17:54.868524Z" modified="2026-09-16T08:17:54.868527Z" visited="2026-09-16T08:17:54.868525Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox_firefox %u&apos;" modified="2026-09-16T08:17:54.868526Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/783767141384963661.gif" added="2026-09-16T08:21:08.992165Z" modified="2026-09-16T08:21:08.992169Z" visited="2026-09-16T08:21:08.992166Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/gif"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox_firefox %u&apos;" modified="2026-09-16T08:21:08.992167Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/jpeg" added="2026-09-16T08:22:55.048412Z" modified="2026-09-16T08:22:55.048415Z" visited="2026-09-16T08:22:55.048412Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox_firefox %u&apos;" modified="2026-09-16T08:22:55.048414Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/WhatsApp%20Image%202026-09-16%20at%2009.26.44.jpeg" added="2026-09-16T08:26:54.237800Z" modified="2026-09-16T08:26:54.237805Z" visited="2026-09-16T08:26:54.237801Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox_firefox %u&apos;" modified="2026-09-16T08:26:54.237802Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/%F0%9F%94%B5%20Glow%20in%20the%20Grove%20%F0%9F%94%B5%20%23artoftheday%20%23Photoshop%20%23CreativeDesign%20%23midjourneyart%20%23DigitalArt%20%23GenerativeAI%20%23generativeart%20%23Wallpaper%20%23Wallpapers%20%23promptart%20%23art%20%23artfulexpchc%20%23midjourney%20%23AIArtwork%20%23midjourneyartwork%20%23MidjourneyAI%20%23midjourneyV.jpeg" added="2026-09-16T08:41:45.918839Z" modified="2026-09-16T08:41:45.918844Z" visited="2026-09-16T08:41:45.918840Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox_firefox %u&apos;" modified="2026-09-16T08:41:45.918841Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/jpeg(1)" added="2026-09-16T08:46:25.899108Z" modified="2026-09-16T08:46:25.899111Z" visited="2026-09-16T08:46:25.899108Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox_firefox %u&apos;" modified="2026-09-16T08:46:25.899109Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/jpeg(2)" added="2026-09-16T08:49:14.695809Z" modified="2026-09-16T08:49:14.695812Z" visited="2026-09-16T08:49:14.695810Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox_firefox %u&apos;" modified="2026-09-16T08:49:14.695811Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/gemini-code-1789567016427.txt" added="2026-09-16T13:56:56.525463Z" modified="2026-09-16T13:56:56.525467Z" visited="2026-09-16T13:56:56.525463Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox_firefox %u&apos;" modified="2026-09-16T13:56:56.525465Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/jpeg(3)" added="2026-09-17T07:39:56.807544Z" modified="2026-09-17T07:39:56.807550Z" visited="2026-09-17T07:39:56.807545Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox_firefox %u&apos;" modified="2026-09-17T07:39:56.807547Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/jpeg(4)" added="2026-09-17T07:41:16.818376Z" modified="2026-09-17T07:41:16.818387Z" visited="2026-09-17T07:41:16.818378Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox_firefox %u&apos;" modified="2026-09-17T07:41:16.818381Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/jpeg(5)" added="2026-09-17T07:44:51.990600Z" modified="2026-09-17T07:44:51.990612Z" visited="2026-09-17T07:44:51.990602Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox_firefox %u&apos;" modified="2026-09-17T07:44:51.990609Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/Une%20interpr%C3%A9tation%20toute%20simple%20des%20heures%20miroirs.jpeg" added="2026-09-17T13:48:09.530215Z" modified="2026-09-17T13:48:09.530222Z" visited="2026-09-17T13:48:09.530215Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox_firefox %u&apos;" modified="2026-09-17T13:48:09.530217Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/elsie/Downloads/La%20th%C3%A9orie%20et%20la%20pratique.jpeg" added="2026-09-21T19:03:41.127884Z" modified="2026-09-21T19:03:41.127892Z" visited="2026-09-21T19:03:41.127885Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox_firefox %u&apos;" modified="2026-09-21T19:03:41.127888Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

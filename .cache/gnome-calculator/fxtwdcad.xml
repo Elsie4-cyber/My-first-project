@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+<terms url="https://www.bankofcanada.ca/terms/"></terms>
+<seriesDetail>
+<series id="FXTWDCAD">
+<label>TWD/CAD</label>
+<description>Daily average exchange rate: daily value of the Taiwanese dollar expressed in Canadian dollars, for 1 unit of Taiwanese dollar</description>
+<dimension key="d" name="Date"/>
+</series>
+</seriesDetail>
+<observations>
+<o d="2026-09-11"><v s="FXTWDCAD">0.04385</v></o>
+</observations>
+</data>
