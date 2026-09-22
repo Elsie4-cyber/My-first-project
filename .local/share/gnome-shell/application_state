@@ -22,10 +22,10 @@
     <application id="org.gnome.font-viewer.desktop" score="0.0625" last-seen="1789552857"/>
     <application id="gnome-initial-setup.desktop" score="1.1175870895385742e-08" last-seen="1789401049"/>
     <application id="nm-connection-editor.desktop" score="0" last-seen="1789552015"/>
-    <application id="firefox_firefox.desktop" score="4398.9911666112021" last-seen="1790045662"/>
+    <application id="firefox_firefox.desktop" score="4429.9911666112021" last-seen="1790047024"/>
     <application id="org.gnome.baobab.desktop" score="0.09375" last-seen="1789562264"/>
     <application id="org.gnome.DiskUtility.desktop" score="0.03125" last-seen="1789562258"/>
-    <application id="org.gnome.Ptyxis.desktop" score="1309.8184834141284" last-seen="1790045592"/>
+    <application id="org.gnome.Ptyxis.desktop" score="1495.8184834141284" last-seen="1790047244"/>
     <application id="algobox.desktop" score="200.51601731777191" last-seen="1789985857"/>
     <application id="net.nokyan.Resources.desktop" score="0.0625" last-seen="1789562288"/>
     <application id="org.gnome.Yelp.desktop" score="9.5367431640625e-06" last-seen="1789641173"/>
